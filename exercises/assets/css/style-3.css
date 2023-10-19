@@ -8,7 +8,16 @@ body { line-height: 1.5; min-height: 100vh }
 @media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
-
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+/* Desktops */
+@media (min-width: 768px) {
+    section { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    section { padding: 8% 5% }
+ }
 body { background-color: lightblue; }
 
 
@@ -30,25 +39,20 @@ p {
 }
 a { color: blue; }
 .section-1{
-
 background-color: lemonchiffon;
-
 }
 
 .section-2{
 background-color: lightgreen;
-
 }
 
 .section-3{
-
 background-color: lightblue;
 }
 
 
 .section-4{
 background-color: darkblue;
-
 }
 
 .section-4 h2,
@@ -56,5 +60,4 @@ background-color: darkblue;
 
 .section-5{
 background-color: lightcoral;
-
 }
