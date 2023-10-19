@@ -10,10 +10,6 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
-body { padding: 4% 20% }
-
-body { background-color: antiquewhite; }
-
 /* Desktops */
 @media (min-width: 768px) {
     body { padding: 4% 20% }
@@ -23,6 +19,9 @@ body { background-color: antiquewhite; }
  @media (max-width: 767px) {
     body { padding: 8% 5% }
  }
+
+body { background-color: antiquewhite; }
+
 
 h1 {
     font-size: 84px;
