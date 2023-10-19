@@ -13,6 +13,9 @@ input, button, textarea, select { font: inherit }
 
 
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+
+body { background-color: lightgreen; }
+
 /* Desktops */
 @media (min-width: 768px) {
     body { padding: 4% 20% }
@@ -56,3 +59,4 @@ p {
     margin-bottom: 16px;
 }
 
+a { color: darkgreen; }

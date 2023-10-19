@@ -9,6 +9,9 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+
+body { background-color: lightblue; }
+
 /* Desktops */
 @media (min-width: 768px) {
     section { padding: 4% 20% }
@@ -18,7 +21,6 @@ input, button, textarea, select { font: inherit }
  @media (max-width: 767px) {
     section { padding: 8% 5% }
  }
-body { background-color: lightblue; }
 
 
 h2 {
@@ -61,3 +63,5 @@ background-color: darkblue;
 .section-5{
 background-color: lightcoral;
 }
+
+a { color: darkgreen; }
