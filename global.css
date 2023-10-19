@@ -11,9 +11,25 @@ input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
 
+
+/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+
+
+
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 4% 20% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 8% 5% }
+ }
 body {
     text-align: center;
     font-family: sans-serif;
+    padding: 4% 20%;
+    background-color: lightgreen;
 }
 
 h1 {
@@ -44,3 +60,11 @@ p {
     margin-bottom: 16px;
 }
 
+a { color: darkgreen; }
+
+/* images */
+img {
+    margin-bottom: 42px;
+    /* Drop shadow effect at right and bottom of image */
+    box-shadow: 8px 10px 8px #888;
+    }
