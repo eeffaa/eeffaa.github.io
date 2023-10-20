@@ -29,7 +29,7 @@ body {
     text-align: center;
     font-family: sans-serif;
     padding: 4% 20%;
-    background-color: lightgreen;
+    background-color: lightpink;
 }
 
 h1 {
@@ -60,7 +60,11 @@ p {
     margin-bottom: 16px;
 }
 
-a { color: darkgreen; }
+a { color: #CE2380}
+h1 {color: #CE2380
+
+    ;}
+
 
 /* images */
 img {
