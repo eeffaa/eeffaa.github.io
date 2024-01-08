@@ -1,0 +1,7 @@
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+header.theme-light { background-color: var(--pink-200) }
+header.theme-light h1 { color: var(--indigo-400) }
+header.theme-light h1 span.highlight { color: var(--pink-700) }
+header.theme-light h2 { color: var(--pink-400) }
