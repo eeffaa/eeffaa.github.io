@@ -5,3 +5,9 @@ header h1 {font-size: var(--font-size-xxxl);}
 .section-selector-1 { background-color: var(--trend-700) }
 .section-selector-1 > h2 { color: var(--white-000) }
 .section-selector-1 > .badge span { background-color: var(--trend-700) }
+.section-selector-1 > .badge span { text-transform: uppercase}
+
+.section-selector-2 { background-color: var(--trend-800) }
+
+.section-selector-3 { background-color: var(--trend-700) }
+
